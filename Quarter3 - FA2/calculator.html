@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
+    <title>Computer Science FA 2</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="calculator">
         <h2>Calculator</h2>
-        <input type="number" id="num1" placeholder="Enter first number">
-        <input type="number" id="num2" placeholder="Enter second number">
-        <button onclick="printResult(addition)">Add</button>
-        <button onclick="printResult(subtraction)">Subtract</button>
-        <button onclick="printResult(multiplication)">Multiply</button>
-        <button onclick="printResult(division)">Divide</button>
-        <p id="result">Result: </p>
+        <p>This page is .....</p>
+        <input type="number" id="num1" placeholder="Num 1">
+        <input type="number" id="num2" placeholder="Num 2">
+        <br>
+        <button onclick="performOperation('add')">+</button>
+        <button onclick="performOperation('subtract')">-</button>
+        <button onclick="performOperation('multiply')">*</button>
+        <button onclick="performOperation('divide')">/</button>
+        <button onclick="performOperation('modulus')">%</button>
+        <p id="result">Results will be displayed here.</p>
     </div>
     <script src="script.js"></script>
 </body>
